@@ -1,0 +1,21 @@
+.ProductsManager {
+    .order-quantity {
+        width: 160px;
+        height: 40px;  // קביעת גובה אחיד
+        margin-bottom: 2px;  // רווח של 2 פיקסלים בין ה-TextField והכפתור
+      
+        .MuiInputBase-root {
+          height: 100%;  // תוודא שהגובה לא ישתנה בתוך ה-TextField
+        }
+      
+        .MuiInputAdornment-root {
+          height: 100%;  // אם יש לך adornments, תוודא שהם באותו גובה
+        }
+      }
+      
+      .order-button {
+        height: 40px;  // קביעת גובה אחיד לכפתור
+        margin-left: 4px;  // רווח של 2 פיקסלים בין ה-TextField והכפתור
+      }
+      
+}
