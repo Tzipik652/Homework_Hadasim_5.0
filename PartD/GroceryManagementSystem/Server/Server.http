@@ -1,0 +1,6 @@
+@Server_HostAddress = http://localhost:5268
+
+GET {{Server_HostAddress}}/GroceryManagementSystem/
+Accept: application/json
+
+###
