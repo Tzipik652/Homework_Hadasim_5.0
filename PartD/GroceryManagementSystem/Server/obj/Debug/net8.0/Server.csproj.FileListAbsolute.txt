@@ -190,3 +190,4 @@ C:\Users\tzipi\Desktop\הגשת מבחן בית-הדסים 5.0\PartD\GroceryMana
 C:\Users\tzipi\Desktop\הגשת מבחן בית-הדסים 5.0\PartD\GroceryManagementSystem\Server\obj\Debug\net8.0\Server.pdb
 C:\Users\tzipi\Desktop\הגשת מבחן בית-הדסים 5.0\PartD\GroceryManagementSystem\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 C:\Users\tzipi\Desktop\הגשת מבחן בית-הדסים 5.0\PartD\GroceryManagementSystem\Server\obj\Debug\net8.0\ref\Server.dll
+C:\Users\tzipi\Desktop\הגשת מבחן בית-הדסים 5.0\PartD\GroceryManagementSystem\Server\obj\Debug\net8.0\Server.sourcelink.json

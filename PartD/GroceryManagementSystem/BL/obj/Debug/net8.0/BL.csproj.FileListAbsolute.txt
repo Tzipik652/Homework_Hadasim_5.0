@@ -28,3 +28,4 @@ C:\Users\tzipi\Desktop\הגשת מבחן בית-הדסים 5.0\PartD\GroceryMana
 C:\Users\tzipi\Desktop\הגשת מבחן בית-הדסים 5.0\PartD\GroceryManagementSystem\BL\obj\Debug\net8.0\refint\BL.dll
 C:\Users\tzipi\Desktop\הגשת מבחן בית-הדסים 5.0\PartD\GroceryManagementSystem\BL\obj\Debug\net8.0\BL.pdb
 C:\Users\tzipi\Desktop\הגשת מבחן בית-הדסים 5.0\PartD\GroceryManagementSystem\BL\obj\Debug\net8.0\ref\BL.dll
+C:\Users\tzipi\Desktop\הגשת מבחן בית-הדסים 5.0\PartD\GroceryManagementSystem\BL\obj\Debug\net8.0\BL.sourcelink.json

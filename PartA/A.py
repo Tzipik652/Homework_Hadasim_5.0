@@ -107,11 +107,18 @@ if __name__ == "__main__":
     main()
 
 """
-    Time complexity:
-    Counting errors in each file: O(N*L), where N is the number of lines and L is the average length of a line.
-    Merging all errors: O(E), where E is the number of unique errors.
-    Sorting and finding the N most common: O(E log E).
-    Total: O(N*L + E log E)
+    Let:
+        T = total number of log lines
+        L = average line length
+        E = number of unique error codes
+        K = number of top error codes to return (the "top N")
+
+        Time complexity:
+            Reading and counting: O(T * L)
+            Merging counters: O(E)
+            Finding top-K: O(E log K)
+
+        Total: O(T * L + E log K)
 
     Space complexity:
     We only keep a Counter of the unique errors, which is O(E).

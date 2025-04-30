@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{2A477CB0-F3AA-464E-8FA9-4AEDCB80EAAA}|Server\\Server.csproj|solutionrelative:server\\controllers\\managementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2A477CB0-F3AA-464E-8FA9-4AEDCB80EAAA}|Server\\Server.csproj|c:\\users\\tzipi\\desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\partd\\grocerymanagementsystem\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2A477CB0-F3AA-464E-8FA9-4AEDCB80EAAA}|Server\\Server.csproj|solutionrelative:server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A477CB0-F3AA-464E-8FA9-4AEDCB80EAAA}|Server\\Server.csproj|c:\\users\\tzipi\\desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\partd\\grocerymanagementsystem\\server\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A477CB0-F3AA-464E-8FA9-4AEDCB80EAAA}|Server\\Server.csproj|solutionrelative:server\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,10 +43,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2A477CB0-F3AA-464E-8FA9-4AEDCB80EAAA}|Server\\Server.csproj|c:\\users\\tzipi\\desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\partd\\grocerymanagementsystem\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2A477CB0-F3AA-464E-8FA9-4AEDCB80EAAA}|Server\\Server.csproj|solutionrelative:server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A477CB0-F3AA-464E-8FA9-4AEDCB80EAAA}|Server\\Server.csproj|c:\\users\\tzipi\\desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\partd\\grocerymanagementsystem\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2A477CB0-F3AA-464E-8FA9-4AEDCB80EAAA}|Server\\Server.csproj|solutionrelative:server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,33 +52,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BLProductService.cs",
-              "DocumentMoniker": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\BL\\Services\\BLProductService.cs",
-              "RelativeDocumentMoniker": "BL\\Services\\BLProductService.cs",
-              "ToolTip": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\BL\\Services\\BLProductService.cs",
-              "RelativeToolTip": "BL\\Services\\BLProductService.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T10:00:24.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BLOrderService.cs",
               "DocumentMoniker": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\BL\\Services\\BLOrderService.cs",
               "RelativeDocumentMoniker": "BL\\Services\\BLOrderService.cs",
-              "ToolTip": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\BL\\Services\\BLOrderService.cs*",
-              "RelativeToolTip": "BL\\Services\\BLOrderService.cs*",
+              "ToolTip": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\BL\\Services\\BLOrderService.cs",
+              "RelativeToolTip": "BL\\Services\\BLOrderService.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAwwIAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T09:59:42.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T09:59:42.716Z"
             },
             {
               "$type": "Document",
@@ -95,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SupplierController.cs",
               "DocumentMoniker": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\Server\\Controllers\\SupplierController.cs",
               "RelativeDocumentMoniker": "Server\\Controllers\\SupplierController.cs",
@@ -103,85 +89,21 @@
               "RelativeToolTip": "Server\\Controllers\\SupplierController.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAAAowGwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T09:57:23.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.Supplier [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_TZIPI_DESKTOP_\u05D4\u05D2\u05E9\u05EA_\u05DE\u05D1\u05D7\u05DF_\u05D1\u05D9\u05EA_\u05D4\u05D3\u05E1\u05D9\u05DD_5.0_PARTD_GROCERYMANAGEMENTSYSTEM_DAL_DATA_GROCERY_STORE_MANAGEMENT.MDF/True/SqlTable/dbo.Supplier.sql",
-              "ToolTip": "dbo.Supplier [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-08T09:50:48.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "dbo.Users [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_TZIPI_DESKTOP_\u05D4\u05D2\u05E9\u05EA_\u05DE\u05D1\u05D7\u05DF_\u05D1\u05D9\u05EA_\u05D4\u05D3\u05E1\u05D9\u05DD_5.0_PARTD_GROCERYMANAGEMENTSYSTEM_DAL_DATA_GROCERY_STORE_MANAGEMENT.MDF/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "dbo.Users [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-08T09:21:10.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T09:57:23.68Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "BLAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\BL\\Services\\BLAuthService.cs",
-              "RelativeDocumentMoniker": "BL\\Services\\BLAuthService.cs",
-              "ToolTip": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\BL\\Services\\BLAuthService.cs",
-              "RelativeToolTip": "BL\\Services\\BLAuthService.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAjwFAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T09:17:13.94Z",
-              "EditorCaption": ""
+              "Title": "dbo.Supplier.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_TZIPI_DESKTOP_\u05D4\u05D2\u05E9\u05EA_\u05DE\u05D1\u05D7\u05DF_\u05D1\u05D9\u05EA_\u05D4\u05D3\u05E1\u05D9\u05DD_5.0_PARTD_GROCERYMANAGEMENTSYSTEM_DAL_DATA_GROCERY_STORE_MANAGEMENT.MDF/True/SqlTable/dbo.Supplier.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_TZIPI_DESKTOP_\u05D4\u05D2\u05E9\u05EA_\u05DE\u05D1\u05D7\u05DF_\u05D1\u05D9\u05EA_\u05D4\u05D3\u05E1\u05D9\u05DD_5.0_PARTD_GROCERYMANAGEMENTSYSTEM_DAL_DATA_GROCERY_STORE_MANAGEMENT.MDF/True/SqlTable/dbo.Supplier.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-08T09:50:48.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthController .cs",
-              "DocumentMoniker": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\Server\\Controllers\\AuthController .cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\AuthController .cs",
-              "ToolTip": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\Server\\Controllers\\AuthController .cs",
-              "RelativeToolTip": "Server\\Controllers\\AuthController .cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAjwEIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T09:12:51.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DalManager.cs",
-              "DocumentMoniker": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\DAL\\DalManager.cs",
-              "RelativeDocumentMoniker": "DAL\\DalManager.cs",
-              "ToolTip": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\DAL\\DalManager.cs",
-              "RelativeToolTip": "DAL\\DalManager.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAswCMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T09:15:38.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\Server\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Server\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\Server\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Server\\Properties\\launchSettings.json",
-              "ViewState": "AgIAABgAAAAAAAAAAAAqwCQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-08T09:04:20.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Server",
+              "DocumentIndex": 1,
+              "Title": "Server.csproj",
               "DocumentMoniker": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\Server\\Server.csproj",
               "RelativeDocumentMoniker": "Server\\Server.csproj",
               "ToolTip": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\Server\\Server.csproj",
@@ -190,6 +112,75 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-04-08T08:54:49.091Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BLProductService.cs",
+              "DocumentMoniker": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\BL\\Services\\BLProductService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\BLProductService.cs",
+              "ToolTip": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\BL\\Services\\BLProductService.cs",
+              "RelativeToolTip": "BL\\Services\\BLProductService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:00:24.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_TZIPI_DESKTOP_\u05D4\u05D2\u05E9\u05EA_\u05DE\u05D1\u05D7\u05DF_\u05D1\u05D9\u05EA_\u05D4\u05D3\u05E1\u05D9\u05DD_5.0_PARTD_GROCERYMANAGEMENTSYSTEM_DAL_DATA_GROCERY_STORE_MANAGEMENT.MDF/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_TZIPI_DESKTOP_\u05D4\u05D2\u05E9\u05EA_\u05DE\u05D1\u05D7\u05DF_\u05D1\u05D9\u05EA_\u05D4\u05D3\u05E1\u05D9\u05DD_5.0_PARTD_GROCERYMANAGEMENTSYSTEM_DAL_DATA_GROCERY_STORE_MANAGEMENT.MDF/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-08T09:21:10.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BLAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\BL\\Services\\BLAuthService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\BLAuthService.cs",
+              "ToolTip": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\BL\\Services\\BLAuthService.cs",
+              "RelativeToolTip": "BL\\Services\\BLAuthService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAjwFAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:17:13.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController .cs",
+              "DocumentMoniker": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\Server\\Controllers\\AuthController .cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\AuthController .cs",
+              "ToolTip": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\Server\\Controllers\\AuthController .cs",
+              "RelativeToolTip": "Server\\Controllers\\AuthController .cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAjwEIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:12:51.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DalManager.cs",
+              "DocumentMoniker": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\DAL\\DalManager.cs",
+              "RelativeDocumentMoniker": "DAL\\DalManager.cs",
+              "ToolTip": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\DAL\\DalManager.cs",
+              "RelativeToolTip": "DAL\\DalManager.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswCMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:15:38.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\tzipi\\Desktop\\\u05D4\u05D2\u05E9\u05EA \u05DE\u05D1\u05D7\u05DF \u05D1\u05D9\u05EA-\u05D4\u05D3\u05E1\u05D9\u05DD 5.0\\PartD\\GroceryManagementSystem\\Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T09:04:20.259Z"
             }
           ]
         }

@@ -1,0 +1,13 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+
+# Database files
+*.mdf
+*.ldf
