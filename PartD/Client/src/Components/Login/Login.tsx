@@ -7,7 +7,7 @@ import { Box, Button, TextField, Typography, Alert, Stack, TableRow, TableCell, 
 import { LoginRequest, LoginResponse } from "../../Models/Auth";
 
 interface LoginProps {
-  onLoginSuccess: (role: string, id: number) => void;
+  onLoginSuccess: () => void;
 }
 
 const Login: FC<LoginProps> = ({ onLoginSuccess }) => {
@@ -34,12 +34,10 @@ const Login: FC<LoginProps> = ({ onLoginSuccess }) => {
 
         if (response.data && response.data.role && response.data.id) {
           const { role, id } = response.data;
-          console.log("Redirecting to:", role, id); 
-          onLoginSuccess(role, id);
           if (role === "SUPPLIER") {
-            navigate(`/SUPPLIER/${id}`);
+            navigate(`/supplier`,{state:{id,role}});
           } else if (role === "MANAGER") {
-            navigate(`/MANAGER/${id}`);
+            navigate(`/manager`,{state:{id,role}});
           }
         } else {
           setErrorMessage("Invalid login response.");
@@ -51,6 +49,8 @@ const Login: FC<LoginProps> = ({ onLoginSuccess }) => {
       } finally {
         setSubmitting(false);
         setLoading(false);
+        onLoginSuccess();
+
 
       }
     },
@@ -98,7 +98,7 @@ const Login: FC<LoginProps> = ({ onLoginSuccess }) => {
 
           <Typography variant="body2" textAlign="center">
             Don't have an account?{" "}
-            <Button variant="text" onClick={() => navigate("/Register")}>
+            <Button variant="text" onClick={() => navigate("/register")}>
               Register here
             </Button>
           </Typography>

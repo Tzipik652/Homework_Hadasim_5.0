@@ -1,14 +1,19 @@
 import React, { useState } from 'react';
+import { useLocation } from 'react-router-dom';
+
 import { Box, Button, Typography, Stack } from '@mui/material';
 import ProductsManager from '../ProductsManager/ProductsManager';
 import AllOrders from '../AllOrders/AllOrders';
 
 interface DashboardProps {
-  role: 'SUPPLIER' | 'MANAGER';
-  supplierId: number;
+ 
 }
 
-const Dashboard: React.FC<DashboardProps> = ({ role, supplierId }) => {
+const Dashboard: React.FC<DashboardProps> = () => {
+  const locationDetails = useLocation();
+    const role = locationDetails.state?.role;
+    const supplierId = locationDetails.state?.id;
+  
   const [currentTab, setCurrentTab] = useState<'products' | 'orders'>('products');
 
   return (

@@ -7,37 +7,13 @@ import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 
 const App: React.FC = () => {
+  
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
   const [userRole, setUserRole] = useState<string | null>(null);
   const [userId, setUserId] = useState<number | -1>(-1);
-  const [loading, setLoading] = useState(true);
-  const onLoginSuccess = (role: string, id: number) => {
-    setUserRole(role);  
-    setUserId(id);
-    setIsLoggedIn(true);
-  };
-  
-  useEffect(() => {
-    const role = localStorage.getItem("role");
-    const id = localStorage.getItem("id");
-    if ((role === "SUPPLIER" || role === "MANAGER") && !isNaN(Number(id))) {
-      if (role && id) {
-        setUserRole(role);
-        setUserId(Number(id));
-        setIsLoggedIn(true);
-      }
-    } else {
-      localStorage.removeItem("role");
-      localStorage.removeItem("id");
-    }
-    setLoading(false);
-  }, []);
+ 
 
   const handleLogout = () => {
-    localStorage.removeItem("role");
-    localStorage.removeItem("id");
-    setUserRole(null);
-    setUserId(-1);
     setIsLoggedIn(false);
   };
 
@@ -47,7 +23,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/grocery-management-system">
       <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <AppBar position="static">
           <Toolbar>
@@ -65,48 +41,42 @@ const App: React.FC = () => {
             <Route
               path="/"
               element={
-                loading ? (
-                  <div>Loading...</div>
-                ) : isLoggedIn ? (
+                isLoggedIn ? (
                   userRole === "SUPPLIER" ? (
-                    <Navigate to={`/SUPPLIER/${userId}`} />
+                    <Navigate to={`/supplier`} state={{userId,userRole}}/>
                   ) : userRole === "MANAGER" ? (
-                    <Navigate to={`/MANAGER/${userId}`} />
+                    <Navigate to={`/manager`} state={{userId,userRole}}/>
                   ) : null
                 ) : (
-                  <Login onLoginSuccess={(role: string, id: number) => {
-                    setUserRole(role);
-                    setUserId(id);
-                    setIsLoggedIn(true);
-                  }} />
+                  <Login onLoginSuccess={ ()=>setIsLoggedIn(true)} />
                 )
               }
             />
 
             <Route
-              path="/SUPPLIER/:id/*"
+              path="/supplier"
               element={
                 <ProtectedRoute>
-                  <Dashboard role={'SUPPLIER'} supplierId={userId} />
+                  <Dashboard />
                 </ProtectedRoute>
               }
             />
             <Route
-              path="/MANAGER/:id/*"
+              path="/manager"
               element={
                 <ProtectedRoute>
-                  <Dashboard role={'MANAGER'} supplierId={userId} />
+                  <Dashboard />
                 </ProtectedRoute>
               }
             />
             <Route
-              path="/Register"
+              path="/register"
               element={<Register />}
             />
             <Route
-              path="/Login"
+              path="/login"
               element={
-                <Login onLoginSuccess={onLoginSuccess} />
+                <Login onLoginSuccess={()=>setIsLoggedIn(true)} />
 
               }
             />

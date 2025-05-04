@@ -9,7 +9,7 @@ const SomeComponent = () => {
 
   return (
     <Suspense fallback={null}>
-      <LazyDashboard role={'SUPPLIER'} supplierId={0} />
+      <LazyDashboard />
     </Suspense>
   );
 };
